@@ -3,23 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-register
-<div class='page-wrap'>
 
-    <div class='grid'>
+<div class='page-wrap register'>
 
-        <div class='row header'>header
+    <form action="/" method="post">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username"/>
         </div>
-
-        <div class=' row main'>main
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password"/>
         </div>
-
-        <div class=' row footer'>footer
+        <div>
+            <input type="submit" value="Register"/>
+            <a href="/register</a>
         </div>
-
-    </div>
+    </form>
 
 </div>
 

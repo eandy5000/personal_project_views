@@ -41,3 +41,22 @@ body{
 .col-2-3 {
     width: 66.66%;
 }
+
+.col-1-1 {
+    width: 100%;
+}
+
+ul {
+    text-align:center;
+}
+
+li {
+    display: inline;
+    margin: 40px ;
+}
+
+.register {
+    border: #415269 1px solid;
+    width:40%;
+    height:400px;
+}
